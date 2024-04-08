@@ -13,14 +13,14 @@ const NavBar = () => {
         <Link href={"/blog"}>blog</Link>
         {/*<Link href={"/about"}>about</Link>*/}
       </div>
-      <Image
+      {/*<Image
         width={35}
         height={35}
         src={signedIn?"/":"/"}
         alt={"profile picture"}
         className="bg-slate-600 rounded-full"
         draggable={false}
-      />
+      />*/}
     </div>
   )
 }
