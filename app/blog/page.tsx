@@ -9,7 +9,10 @@ const Blog = () => {
       <div className="space-y-3 text-white">
         <Link href={"/blog/0"}>
           <div className="rounded-lg w-full bg-[#D1BB9E] px-2 py-1">
-            <p className="text-2xl">Hello World!</p>
+            <div className="flex justify-between">
+              <p className="text-2xl">Hello World!</p>
+              <p>3 days ago</p>
+            </div>
             <p className="text-gray-100 text-sm text-wrap line-clamp-2 truncate">testing</p>
           </div>
         </Link>
