@@ -8,11 +8,11 @@ const Index = () => {
       <NavBar/>
       <div>
         <p className="text-gray-700 text-2xl">hi, I’m Ali 👋</p>
-        <p className="text-gray-700 mt-1">I'm a junior software engineer at Turkey. I want to work at Google soon.</p>
+        <p className="text-gray-700 mt-1">I’m a junior software engineer at Turkey. I want to work at Google soon.</p>
       </div>
       <div>
         <p className="text-gray-700 text-2xl">some of my projects</p>
-        <p className="text-gray-700 mt-1">Here are some project that I've made</p>
+        <p className="text-gray-700 mt-1">Here are some project that I’ve made</p>
       </div>
       <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
         <Link href={"#"} className="flex items-center justify-center rounded-md flex-col">
