@@ -5,13 +5,18 @@ import Link from "next/link"
 const projectData = [
   {
     title: 'My Portfolio',
-    thumbnail: '/portfolio_thumb.png',
+    thumbnail: '/portfolio.png',
     repository: 'https://github.com/bentunadeyilim1234/my-portfolio',
   },
   {
     title: 'ServerJars Python Wrapper',
-    thumbnail: '/serverjars_thumb.png',
+    thumbnail: '/serverjars.png',
     repository: 'https://github.com/bentunadeyilim1234/ServerJars-Wrapper-Python',
+  },
+  {
+    title: 'audio2mp4',
+    thumbnail: '/audio2mp4.png',
+    repository: 'https://github.com/bentunadeyilim1234/audio2mp4-discord',
   },
 ]
 
