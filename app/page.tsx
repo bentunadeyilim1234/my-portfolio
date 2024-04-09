@@ -5,12 +5,12 @@ import Link from "next/link"
 const projectData = [
   {
     title: 'My Portfolio',
-    thumbnail: '/',
+    thumbnail: '/portfolio_thumb.png',
     repository: 'https://github.com/bentunadeyilim1234/my-portfolio',
   },
   {
     title: 'ServerJars Python Wrapper',
-    thumbnail: '/',
+    thumbnail: '/serverjars_thumb.png',
     repository: 'https://github.com/bentunadeyilim1234/ServerJars-Wrapper-Python',
   },
 ]
@@ -33,7 +33,7 @@ const Index = () => {
                 alt={"Thumbnail"}
                 width={188}
                 height={106}
-                className="aspect-video bg-slate-200 rounded-lg"
+                className="aspect-video bg-slate-200 rounded-lg shadow-lg"
                 draggable={false}
               />
               <p className="text-center truncate line-clamp-2 text-wrap">{title}</p>
