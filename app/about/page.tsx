@@ -2,7 +2,7 @@ import NavBar from "@/components/navbar"
 
 const About = () => {
   return (
-    <div className="flex flex-col px-4 space-y-6 text-gray-700">
+    <div className="flex flex-col px-4 pt-6 space-y-6 text-gray-700">
       <NavBar/>
       <div className="space-y-1">
         <p className="text-2xl">about me</p>

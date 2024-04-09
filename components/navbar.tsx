@@ -5,10 +5,9 @@ import Image from "next/image"
 import { useState } from "react"
 
 const NavBar = () => {
-  const [signedIn, setSignedIn] = useState<boolean>(false)
   return(
-    <div className="h-12 flex justify-between items-center text-white">
-      <div className={`h-7 flex items-center px-2 space-x-2 bg-[#D1BB9E] rounded-md`}>
+    <div className="flex justify-between items-center text-white">
+      <div className={`flex items-center px-2 space-x-2 py-1 bg-[#D1BB9E] rounded-lg`}>
         <Link href={"/"}>home</Link>
         <Link href={"/blog"}>blog</Link>
         {/*<Link href={"/about"}>about</Link>*/}
